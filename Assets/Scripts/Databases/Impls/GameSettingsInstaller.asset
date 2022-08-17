@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbcfa26613f734d4899bea1b7ad34b70, type: 3}
+  m_Name: GameSettingsInstaller
+  m_EditorClassIdentifier: 
+  enemiesDatabase: {fileID: 11400000, guid: bc75a3b25da2e6747ad9646be389d923, type: 2}
+  towersDatabase: {fileID: 11400000, guid: 655dd0619f12a5149a005210da93bfb3, type: 2}
+  wavesDatabase: {fileID: 11400000, guid: d6c7b584eb0de1d4a8f2cc34746b2a9d, type: 2}
+  pathCreator: {fileID: 3143721437515105879, guid: 4d0c7209c01e35a40b5af63347068ef9,
+    type: 3}
+  levelCreator: {fileID: 7691194948384410427, guid: d137388960471ea459ec640d964758e9,
+    type: 3}

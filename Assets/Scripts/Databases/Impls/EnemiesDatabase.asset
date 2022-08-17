@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4354422e982b46908a2d41246e9e1fbb, type: 3}
+  m_Name: EnemiesDatabase
+  m_EditorClassIdentifier: 
+  enemies:
+  - id: 0
+    speed: 2
+    health: 15
+    moneyForDefeat: 10
+    enemyPrefab: {fileID: 9059287181196110182, guid: af519d43647c3a042b9de9be9fe0af97,
+      type: 3}
+  - id: 1
+    speed: 3
+    health: 10
+    moneyForDefeat: 5
+    enemyPrefab: {fileID: 5262332991916033183, guid: 1af415d535226c242b50f06627960325,
+      type: 3}
+  - id: 2
+    speed: 4
+    health: 5
+    moneyForDefeat: 5
+    enemyPrefab: {fileID: 7502481366821763594, guid: 6eae81e2474658544a899ef7cb6a381b,
+      type: 3}

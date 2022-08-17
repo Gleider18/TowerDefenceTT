@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b562018f4dc491daee05621d16e0b2c, type: 3}
+  m_Name: TowersDatabase
+  m_EditorClassIdentifier: 
+  towers:
+  - id: 0
+    price: 15
+    range: 3.5
+    damage: 5
+    attackCooldown: 1
+    towerPrefab: {fileID: 3667908337134414483, guid: 6f3c6a7d43bc2d84387cc8304578f99b,
+      type: 3}
+  towerPlace: {fileID: -816102988243131444, guid: e7c442b0d8b73274aa4403eee83abf57,
+    type: 3}
